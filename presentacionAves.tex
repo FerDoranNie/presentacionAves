@@ -15,7 +15,8 @@
 \usepackage{tikz}
 \usepackage{verbatim}
 \usepackage{multimedia}
-
+\usepackage{fontawesome}
+  
 
 \uselanguage{spanish}
 \languagepath{spanish}
@@ -442,6 +443,64 @@
    \tiny{Foto: Autores varios, Alas urbanas club de Observadores }
    \end{frame}
 }
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo3.png}}
+  \begin{frame}
+    \frametitle{Identificando aves}
+    \framesubtitle{El canto.}
+    \begin{center}
+      \includegraphics[scale=0.2]{imagenes/cantos.png}\\
+      \captionof{}{}
+    \end{center}\\[2cm]    
+        
+   \tiny{Tomado de http://songbirdscience.com/}
+   \end{frame}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo2.png}}
+  \begin{frame}
+    \frametitle{Identificando aves}
+    \framesubtitle{El canto.}
+    \begin{center}
+	Ejemplos de cantos...
+      \begin{columns}[c]
+      \column{.6\textwidth}
+	  \visible<2,3>{
+			\begin{center}
+			  \includegraphics[scale=0.1]{imagenes/coquitaMarcoArturo.jpg}\\
+			   \captionof{Tortola Coquita \textsuperscript{1}\\}{
+			       \sound[autostart,inlinesound]{
+				\hyperlink{columns}{\beamergotobutton{{\textit{Columbina Inca}}}}
+				      }{columbinaInca.mp3}\\
+
+			   }
+			\end{center}
+			}
+	\column{.6\textwidth}<3>
+	   \visible<3,3>{
+			\begin{center}
+			  \includegraphics[scale=0.22]{imagenes/dives_dives.jpg}\\
+			   \captionof{Tordo Cantor \textsuperscript{2}\\}{
+			      \sound[autostart,inlinesound]{
+				  \hyperlink{columns}{\beamergotobutton{{\textit{Dives dives}}}}
+				 }{divesDives.mp3}\\
+
+			  }
+			\end{center}
+		    }
+      \end{columns} \\[1.5cm]
+
+    \end{center}
+        
+   \tiny{1 Foto: Marco Arturo Vidal Bolaños Alas Urbanas Club de Observadores}\\
+   \tiny{2 Foto: Andy Jones Naturalista http://www.naturalista.mx/photos/67526}
+   \end{frame}
+}
+
+
+
 
 {
 \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo2.png}}

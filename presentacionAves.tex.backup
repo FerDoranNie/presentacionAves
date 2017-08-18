@@ -15,7 +15,8 @@
 \usepackage{tikz}
 \usepackage{verbatim}
 \usepackage{multimedia}
-
+\usepackage{fontawesome}
+  
 
 \uselanguage{spanish}
 \languagepath{spanish}
@@ -43,7 +44,7 @@
 \usebackgroundtemplate { %
 \includegraphics[ width=\paperwidth,height=\paperheight] {imagenes/fondo.png}}
 
-\section{Portada}
+\section{}
 \begin{document}
 \begin{frame}
 \begin{wrapfigure}{c}{2cm}
@@ -446,6 +447,55 @@
 {
 \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo2.png}}
   \begin{frame}
+    \frametitle{Identificando aves}
+    \framesubtitle{El canto.}
+    \begin{center}
+      \includegraphics[scale=0.2]{imagenes/cantos.png}\\
+      \captionof{}{}
+    \end{center}\\[-0.2cm]
+    
+        \begin{columns}[c]
+      \column{.6\textwidth}
+	  \visible<2,3>{
+			\begin{center}
+			  \includegraphics[scale=0.1]{imagenes/coquitaMarcoArturo.jpg}\\
+			   \captionof{}{
+			   
+			       \sound[autostart,inlinesound]{
+				\hyperlink{columns}{\beamergotobutton{\Large{\textit{Columbina Inca}}}}
+				      }{divesDives.mp3}\\
+
+			   }
+			\end{center}
+			}
+	\column{.6\textwidth}<3>
+	   \visible<3,3>{
+	   \begin{center}
+	      \includegraphics[scale=0.2]{imagenes/porroBinocularUnion.png}\\
+	      \captionof{}{Tipo Porro.\textsuperscript{2}}
+	    \end{center}
+	    }
+      \end{columns} \\[1.5cm]
+
+    
+    
+    \sound[autostart,inlinesound]{\textit{Columbina Inca}}{columbinaInca.mp3}\\
+    \sound[autostart,inlinesound]{\textit{Dives Dives}}{divesDives.mp3}\\
+
+    \sound[autostart,inlinesound]{
+    \hyperlink{columns}{\beamergotobutton{dives dives}}
+    }{divesDives.mp3}\\
+    
+
+    
+   \tiny{}
+   \end{frame}
+}
+
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo2.png}}
+  \begin{frame}
     \frametitle{Guías de identificación}
     \framesubtitle{¿Qué usar para identificar?}
     \begin{center}
@@ -458,12 +508,12 @@
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo2.png}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo3.png}}
   \begin{frame}
     \frametitle{Registrando mis observaciones}
     \framesubtitle{¿Donde guardo mis registros?}
     \begin{center}
-      \includegraphics[scale=0.12]{imagenes/guias.png}\\
+      \includegraphics[scale=0.12]{imagenes/collageEbird1.png}\\
       \captionof{}{}
     \end{center}\\[-0.2cm]
 
@@ -472,6 +522,35 @@
 }
 
 
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo2.png}}
+  \begin{frame}
+    \frametitle{Registrando mis observaciones}
+    \framesubtitle{¿Donde guardo mis registros?}
+    \begin{center}
+      \includegraphics[scale=0.12]{imagenes/collageEbird2.png}\\
+      \captionof{}{}
+    \end{center}\\[-0.2cm]
+
+   %\tiny{Foto: Autores varios, Alas urbanas club de Observadores }
+   \end{frame}
+}
+
+
+
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{imagenes/fondo3.png}}
+  \begin{frame}
+    \frametitle{Eventos de aves}
+    \begin{center}
+      \includegraphics[scale=0.12]{imagenes/collageEventos.png}\\
+      \captionof{}{}
+    \end{center}\\[-0.2cm]
+
+   %\tiny{Foto: Autores varios, Alas urbanas club de Observadores }
+   \end{frame}
+}
 
 
 \section{Conservación de las aves}

@@ -1,7 +1,6 @@
-\beamer@sectionintoc {1}{Portada}{1}{0}{1}
 \beamer@endinputifotherversion {3.36pt}
 \select@language {spanish}
-\beamer@sectionintoc {2}{\IeC {\textquestiondown }Qu\IeC {\'e} es un ave?}{2}{0}{2}
-\beamer@sectionintoc {3}{Aves en el mundo y en M\IeC {\'e}xico}{11}{0}{3}
-\beamer@sectionintoc {4}{Observando aves}{17}{0}{4}
-\beamer@sectionintoc {5}{Conservaci\IeC {\'o}n de las aves}{37}{0}{5}
+\beamer@sectionintoc {2}{\IeC {\textquestiondown }Qu\IeC {\'e} es un ave?}{2}{0}{1}
+\beamer@sectionintoc {3}{Aves en el mundo y en M\IeC {\'e}xico}{11}{0}{2}
+\beamer@sectionintoc {4}{Observando aves}{17}{0}{3}
+\beamer@sectionintoc {5}{Conservaci\IeC {\'o}n de las aves}{41}{0}{4}
